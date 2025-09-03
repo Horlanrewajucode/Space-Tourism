@@ -13,7 +13,7 @@ function Crew() {
       setCurrentIndex((prevIndex) =>
         prevIndex === crew.crew.length - 1 ? 0 : prevIndex + 1
       );
-    }, 10000);
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
@@ -26,8 +26,8 @@ function Crew() {
       <div className="flex flex-col items-center justify-center md:flex-row md:h-[650px] ">
         <div className="flex flex-col items-center justify-center text-center py-6 px-10 text-blue-100 gap-10 md:w-[550px] md:gap-50 md:text-left md:items-start">
           <div className="flex flex-col gap-1">
-            <h3 className="font-mono text-[30px] uppercase">{role}</h3>
-            <h1 className="font-serif text-[40px] md:text-[55px]">{name}</h1>
+            <h3 className="font-mono text-[25px] uppercase">{role}</h3>
+            <h1 className="font-serif text-[35px] md:text-[55px]">{name}</h1>
             <p className="text-sm md:w-[375px] md:text-[12px]">{bio}</p>
           </div>
           <div className="flex gap-8">

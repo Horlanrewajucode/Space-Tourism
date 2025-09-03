@@ -5,6 +5,7 @@ import destination from "../data/destination.json";
 function Destination() {
   const [active, setActive] = useState("moon");
   const data = destination[active];
+
   return (
     <main className="bg-[url('/destination/background-destination-mobile.jpg')] h-screen w-full bg-no-repeat bg-cover md:bg-[url('/destination/background-destination-tablet.jpg')] md:bg-cover md:bg-center lg:bg-[url('/   destination/background-destination-desktop.jpg')]">
       <NavBar />
@@ -38,8 +39,8 @@ function Destination() {
           <h1 className="text-[60px] font-serif text-blue-100">{data.name}</h1>
           <p className="text-[14px] px-8 text-center text-blue-100 md:w-[390px] md:text-left md:text-[12px]">
             {data.description}
-                  </p>
-                  <div className="w-[90%] h-[1px] bg-blue-50 mt-3"></div>
+          </p>
+          <div className="w-[90%] h-[1px] bg-blue-50 mt-3"></div>
           <div className="flex flex-col mt-6 gap-6 text-blue-100 text-center md:flex-row md:gap-14 md:text-left">
             <div>
               <p className="font-mono text-[14px]">AVG. DISTANCE</p>
