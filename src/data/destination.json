@@ -1,0 +1,30 @@
+{
+  "moon": {
+    "name": "MOON",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "distance": "384,400 KM",
+    "travel": "3 DAYS",
+    "image": "/destination/image-moon.png"
+  },
+  "mars": {
+    "name": "MARS",
+    "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. With two moons, Mars is a great stop for the adventurous traveler.",
+    "distance": "225 MIL. KM",
+    "travel": "9 MONTHS",
+    "image": "/destination/image-mars.png"
+  },
+  "europa": {
+    "name": "EUROPA",
+    "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for adventure. Scientists are confident it has an ocean beneath the surface.",
+    "distance": "628 MIL. KM",
+    "travel": "3 YEARS",
+    "image": "/destination/image-europa.png"
+  },
+  "titan": {
+    "name": "TITAN",
+    "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home. It features lakes and rivers of liquid methane — a perfect spot for explorers and dreamers.",
+    "distance": "1.6 BIL. KM",
+    "travel": "7 YEARS",
+    "image": "/destination/image-titan.png"
+  }
+}
